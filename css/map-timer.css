@@ -1,0 +1,76 @@
+@import url(./css/style.css);
+@import url(./css/reset.css);
+.main-map {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.map-heading,
+.timer-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #505050;
+}
+
+.main-timer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.accordion-map,
+.accordion-timer {
+    margin-top: 32px;
+}
+
+.upload-btn {
+    background-image: url(../img/icons/Update.svg);
+    width: 24px !important;
+    height: 24px !important;
+    transform: rotate(180deg) !important;
+}
+
+.close-btn {
+    background-image: url(../img/icons/Close.svg);
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.map-header,
+.timer-header {
+    display: flex !important;
+    align-items: center !important;
+    padding-right: 32px;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+}
+
+.map-accordion-button,
+.timer-accordion-button {
+    box-shadow: unset !important;
+    padding-top: 18px !important;
+    padding-left: 32px !important;
+    padding-bottom: 18px !important;
+    padding-right: unset !important;
+}
+
+#map {
+    padding: 0 32px 32px 32px !important;
+    width: 100% !important;
+    height: 480px !important;
+}
+
+#timers {
+    width: 100% !important;
+    padding: 0 32px 32px 32px !important;
+}
+
+#timer {
+    margin-bottom: unset !important;
+    font-size: 16px;
+    line-height: 19px;
+    color: #505050;
+    margin-top: 16px;
+} /*# sourceMappingURL=map-timer.css.map */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/map-timer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="user-pages">
+            <div class="page">
+                <a href="#!" class='back-btn'><img src="./img/icons/Back.svg" alt=""></a>
+                <h1 class="page__heading">User pages - <span>Profile</span></h1>
+            </div>
+            <div class="user-pages__nav">
+                <div class="user-pages__item">
+                    <img class="user-pages__img" src="./img/icons/Chart.svg" alt="">
+                    <span>Statitics</span>
+                </div>
+                <div class="user-pages__item">
+                    <img class="user-pages__img" src=" ./img/icons/Calculate.svg" alt="">
+                    <span>Invoices</span>
+                </div>
+                <div class="user-pages__item">
+                    <img class="user-pages__img" src=" ./img/icons/Receipt.svg" alt="">
+                    <span>Schedule</span>
+                </div>
+            </div>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_nav__list">
+                <div class="header_nav__right">
+                    <li class="header_nav__item"><img src="./img/icons/Menu.svg" alt=""><a class="header_nav__link"
+                            href="./activity.html">Activity</a></li>
+                    <li class="header_nav__item"><img src="./img/icons/Location.svg" alt=""><a class="header_nav__link"
+                            href="./map.html">Map</a></li>
+                    <li class="header_nav__item header_nav__item--active"><img src="./img/icons/Time.svg" alt=""><a
+                            class="header_nav__link" href="./timer.html">Time
+                        </a>
+                    </li>
+                </div>
+                <div class="header_nav__left">
+                    <li class="header_nav__item"><img src="./img/icons/Docs.svg" alt=""><span>Notes</span></li>
+                    <li class="header_nav__item"><img src="./img/icons/People.svg" alt=""><span>Friends</span></li>
+                    <li class="header_nav__item"><img src="./img/icons/Jpg.svg" alt=""><span>Photos</span></li>
+                    <li class="header_nav__item"><img src="./img/icons/Settings.svg" alt=""><span>Placeholder</span>
+                    </li>
+                </div>
+            </ul>
+
+
+        </nav>
+    </header>
+    <main class="main-timer container">
+        <div class="accordion accordion-timer" id="accordionPanelsStayOpen">
+            <div class="accordion-item">
+                <h2 class="accordion-header timer-header" id="panelsStayOpen-headingTimer">
+                    <div class="accordion-button timer-accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTimer" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseTimer">
+                        <span class="timer-heading">Timer</span>
+                    </div>
+                    <div class="upload-btn"></div>
+                    <div class="close-btn"></div>
+                </h2>
+                <div id="panelsStayOpen-collapseTimer" class="accordion-collapse"
+                    aria-labelledby="panelsStayOpen-headingTimer">
+                    <div class="accordion-body timer" id="timers">
+                        <p id="timer">00:00:00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="./js/timer.js">
+    </script>
+</body>
+
+</html>

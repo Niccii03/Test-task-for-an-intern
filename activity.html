@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="user-pages">
+            <div class="page">
+                <a href="#!" class='back-btn'><img src="./img/icons/Back.svg" alt=""></a>
+                <h1 class="page__heading">User pages - <span>Profile</span></h1>
+            </div>
+            <div class="user-pages__nav">
+                <div class="user-pages__item">
+                    <img class="user-pages__img" src="./img/icons/Chart.svg" alt="">
+                    <span>Statitics</span>
+                </div>
+                <div class="user-pages__item">
+                    <img class="user-pages__img" src=" ./img/icons/Calculate.svg" alt="">
+                    <span>Invoices</span>
+                </div>
+                <div class="user-pages__item">
+                    <img class="user-pages__img" src=" ./img/icons/Receipt.svg" alt="">
+                    <span>Schedule</span>
+                </div>
+            </div>
+        </div>
+        <nav class="header_nav">
+            <div class="header_nav__list">
+                <ul class="header_nav__right">
+                    <li class="header_nav__item header_nav__item--active"><img src="./img/icons/Menu.svg" alt=""><a
+                            class="header_nav__link" href="./activity.html">Activity</a></li>
+                    <li class="header_nav__item"><img src="./img/icons/Location.svg" alt=""><a class="header_nav__link"
+                            href="./map.html">Map</a>
+                    </li>
+                    <li class="header_nav__item"><img src="./img/icons/Time.svg" alt=""><a class="header_nav__link"
+                            href="./timer.html">Time
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header_nav__left">
+                    <li class="header_nav__item"><img src="./img/icons/Docs.svg" alt=""><span>Notes</span></li>
+                    <li class="header_nav__item"><img src="./img/icons/People.svg" alt=""><span>Friends</span></li>
+                    <li class="header_nav__item"><img src="./img/icons/Jpg.svg" alt=""><span>Photos</span></li>
+                    <li class="header_nav__item"><img src="./img/icons/Settings.svg" alt=""><span>Placeholder</span>
+                    </li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+    <main class="main container">
+        <div class="left-side">
+            <div class="main_post">
+                <img class="main_pic" src="./img/images/abstract-purple-digital-art-retrowave-wallpaper 1 (1).png"
+                    alt="">
+                <div class="comment">
+                    <div class="commentator">
+                        <img src="./img/icons/Comment.svg" alt="">
+                        <span><span class="commentator__name">Jason Anderson</span> commented:</span>
+                    </div>
+                    <p class="comment-text">Don't sit and wait. Get out there, feel life. Touch the sun, and immerse
+                        in
+                        the
+                        sea. Keep love in your heart. A life without it is like a sunless garden when the flowers
+                        are
+                        dead.
+                        Because summer is passion, memories, light breeze, the sun that appears on the skin and
+                        caresses
+                        the
+                        face.
+                        <br>
+                        <span class="comment__date">Jason, 10:30 am</span>
+                    </p>
+                </div>
+                <div class="comment-icons">
+                    <div class="viewers">
+                        <img src="./img/icons/Eye.svg" alt="amount of visitors">
+                        <span class="viewer__count">432</span>
+                    </div>
+                    <div class="comments">
+                        <img src="./img/icons/Comment.svg" alt="amount of comments">
+                        <span class="comments__count">47</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <div class="accordion-button post" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <span class="post-heading">Sunset Sunset Sunset</span>
+                            <div class="post__time">
+                                <span>53 minutes ago</span>
+                            </div>
+                        </div>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                            the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            You
+                            can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <div class="accordion-button collapsed post" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <span class="post-heading">Morning of Siberia</span>
+                            <div class="post__time">
+                                <span>56 minutes ago</span>
+                            </div>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until
+                            the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            You
+                            can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sidebar">
+            <div class="person">
+                <img class="person__img" src="./img/images/Avatar.png" alt="a photo of the user">
+                <span class="person__name">Hanna Dorman</span>
+                <span class="person__specialization">UX/UI designer</span>
+                <div class="person__contacts">
+                    <div class="person__contacts-item">
+                        <img class="person__contacts-img" src="./img/icons/telegram_icon.svg" alt="telegram icon">
+                    </div>
+                    <div class="person__contacts-item">
+                        <img class="person__contacts-img" src="./img/icons/hh_icon.svg" alt="headhunter icon">
+                    </div>
+                    <div class="person__contacts-item">
+                        <img class="person__contacts-img" src="./img/icons/twitter_icon.svg" alt="twitter icon">
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <div class="accordion-button sidebar__nav" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <span class="sidebar__nav-heading">Navigation</span>
+                        </div>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <div class="sidebar__nav-list">
+                                <div class="sidebar__nav-item">
+                                    <img class="icon" src="./img/icons/Person.svg" alt="">
+                                    <span>My profile</span>
+                                </div>
+                                <div class="sidebar__nav-item">
+                                    <img class="icon" src="./img/icons/Finance.svg" alt="">
+                                    <div class="balance">
+                                        <span>Balance</span>
+                                        <span class="balance__count">1,430</span>
+                                    </div>
+                                </div>
+                                <div class="sidebar__nav-item">
+                                    <img class="icon" src="./img/icons/Scheme.svg" alt="">
+                                    <div class="connections">
+                                        <span>Connections</span>
+                                        <span class="badge rounded-pill text-bg-danger">29</span>
+                                    </div>
+
+                                </div>
+                                <div class="sidebar__nav-item">
+                                    <img class="icon" src="./img/icons/People.svg" alt="">
+                                    <span>Friends</span>
+                                </div>
+                            </div>
+                            <div class="sidebar__nav-other">
+                                <div class="sidebar__nav-item">
+                                    <img class="icon" src="./img/icons/Calendar.svg" alt="">
+                                    <div class="events">
+                                        <span>Events</span>
+                                        <span class="badge rounded-pill text-bg-success">45</span>
+                                    </div>
+                                </div>
+                                <div class="sidebar__nav-item">
+                                    <img class="icon" src="./img/icons/Settings.svg" alt="">
+                                    <span>Account settings</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <div class="accordion-button share_your_thoughts" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <span class="share_your_thoughts-heading">Share your thoughts</span>
+                        </div>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            <form class="share_your_thoughts-form">
+                                <textarea class="share_your_thoughts-ta" name="share_your_thoughts-ta" id=""
+                                    placeholder="Enter your message..."></textarea>
+                                <button class="save-btn" type="button">Save</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/timer.js"></script>
+</body>
+
+</html>

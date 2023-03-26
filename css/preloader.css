@@ -1,0 +1,36 @@
+#preloader_malc {
+    background: #fff;
+    z-index: 99;
+}
+
+.preload-img {
+    background-image: url(../img/icons/Redo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: #111;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: preloader-rotate 1s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding #preloader_malc {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded #preloader_malc {
+    display: none;
+}
